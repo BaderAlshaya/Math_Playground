@@ -1,3 +1,5 @@
+use math_playground::*;
+
 fn main() {
-    println!("Hello, world!");
+    hello();
 }
