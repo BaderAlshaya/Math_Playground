@@ -41,7 +41,7 @@ Below are my own interpretation of these concepts and algorithms in short.
 
   Sudo-Code:
     let 'n' be some upper bound limit
-    let {p} be the list of all prime numbers found in the range of 0 to 'n'
+    let {p} be the list of all prime numbers found in the range of 1 to 'n'
 
     For each integer 'i' in the range of 1 to 'n':
       if (i % any number in {p}) == 0
