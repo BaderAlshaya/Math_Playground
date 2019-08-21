@@ -4,12 +4,14 @@ Copyright (c) 2019 Bader Alshaya
 
 ### Highlights
 
-This is a playground for several famous mathematical concepts. The program is designed for testing, viewing, and using these concepts digitally and maybe come up with ways to simplify them.
+This is a playground for several famous mathematical concepts and algorithms. The program is designed for testing, viewing, and using these concepts/algorithms digitally and maybe come up with ways to simplify them.
 
-All mathematical concepts this program supports will be listed below:
-- `perfect numbers`
-- `superperfect numbers`
+Currently supported math concepts:
+- (Concept): `perfect numbers`
+- (Concept): `superperfect numbers`
 
+Other interesting math concepts to support:
+- (Algorithm): `Sieve of Eratosthenes`
 
 ### Build and Run
 
