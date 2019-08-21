@@ -139,3 +139,30 @@ fn test_get_superperfect_nums_in_range_64() {
     assert_eq!(get_superperfect_nums(64)[3], 64);
     assert_eq!(get_superperfect_nums(64).len(), 4);
 }
+
+#[test]
+fn test_sieve_of_eratosthenes_in_range_0() {
+    assert_eq!(sieve_of_eratosthenes(0).is_empty(), true);
+}
+
+#[test]
+fn test_sieve_of_eratosthenes_in_range_1() {
+    assert_eq!(sieve_of_eratosthenes(1).is_empty(), true);
+}
+
+#[test]
+fn test_sieve_of_eratosthenes_in_range_2() {
+    assert_eq!(sieve_of_eratosthenes(2)[0], 2);
+    assert_eq!(sieve_of_eratosthenes(2).len(), 1);
+}
+
+#[test]
+fn test_sieve_of_eratosthenes_in_range_15() {
+    assert_eq!(sieve_of_eratosthenes(15)[0], 2);
+    assert_eq!(sieve_of_eratosthenes(15)[1], 3);
+    assert_eq!(sieve_of_eratosthenes(15)[2], 5);
+    assert_eq!(sieve_of_eratosthenes(15)[3], 7);
+    assert_eq!(sieve_of_eratosthenes(15)[4], 11);
+    assert_eq!(sieve_of_eratosthenes(15)[5], 13);
+    assert_eq!(sieve_of_eratosthenes(15).len(), 6);
+}

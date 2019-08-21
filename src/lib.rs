@@ -37,7 +37,7 @@ pub fn get_perfect_nums(upper_bound: i64) -> Vec<i64> {
 pub fn is_superperfect_num(input: i64) -> bool {
     let mut total = sum_divisors(input);
     total = sum_divisors(total);
-    total != 0 && total == (input*2)
+    total != 0 && total == (input * 2)
 }
 
 // Return a list of all the superperfect numbers within a given range (0:upper_bound)
@@ -51,4 +51,26 @@ pub fn get_superperfect_nums(upper_bound: i64) -> Vec<i64> {
     }
 
     result
+}
+
+// Return a list of prime numbers within a given range (0:upper_bound)
+pub fn sieve_of_eratosthenes(upper_bound: i64) -> Vec<i64> {
+    let mut primes = Vec::<i64>::new();
+
+    for num in 2..upper_bound + 1 {
+        let mut num_is_not_multiple = true;
+
+        for p_num in &primes {
+            if num % p_num == 0 {
+                num_is_not_multiple = false;
+                break;
+            }
+        }
+
+        if num_is_not_multiple {
+            primes.push(num);
+        }
+    }
+
+    primes
 }

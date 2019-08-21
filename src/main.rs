@@ -5,5 +5,4 @@
 
 // use math_playground::*;
 
-fn main() {
-}
+fn main() {}
