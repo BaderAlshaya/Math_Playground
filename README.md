@@ -3,7 +3,6 @@
 Copyright (c) 2019 Bader Alshaya
 
 ## Highlights
-
 This is a playground for several famous mathematical concepts and algorithms. The program is designed for testing, viewing, and using these concepts/algorithms digitally and maybe come up with ways to simplify them.
 
 **Currently supported math concepts:**
@@ -12,6 +11,12 @@ This is a playground for several famous mathematical concepts and algorithms. Th
 
 **Other interesting math concepts to support:**
 - (Algorithm): `Sieve of Eratosthenes`
+
+
+## Highlights
+
+
+
 
 ## Build and Run
 
