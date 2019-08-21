@@ -26,7 +26,7 @@ To build or run an optimized version, use `cargo --release`.
 Use `cargo test` to run the unit tests for the current version.
 
 
-### License
+## License
 
 This program is licensed under the "MIT License". Please
 see the file `LICENSE` in the source distribution of this
