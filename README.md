@@ -48,6 +48,7 @@ Below are my own interpretation of these concepts and algorithms in short.
         -> 'i' = not prime
       else
         -> 'i' = prime
+        -> add 'i' to {p}
 
     return {p}
 ```
