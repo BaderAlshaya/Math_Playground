@@ -44,7 +44,7 @@ Below are my own interpretation of these concepts and algorithms in short.
     let {p} be the list of all prime numbers found in the range of 0 to 'n'
 
     For each integer 'i' in the range of 0 to 'n':
-      if (i % each number in {p}) == 0
+      if (i % any number in {p}) == 0
         -> 'i' = not prime
       else
         -> 'i' = prime
