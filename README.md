@@ -9,10 +9,10 @@ This is a playground for several famous mathematical concepts and algorithms. Th
 **Currently supported math concepts:**
 - (Concept): `Perfect Numbers`
 - (Concept): `Superperfect Numbers`
-
-**Other interesting math concepts to support:**
 - (Algorithm): `Sieve of Eratosthenes`
 
+**Other interesting math concepts to support:**
+- ???
 
 
 ## Background Information
