@@ -18,24 +18,21 @@ This is a playground for several famous mathematical concepts and algorithms. Th
 ## Background Information
 Below are my own interpretation of these concepts and algorithms in short.
 
-`perfect Numbers`
-A math concept that satisfies the following condition:
+`perfect Numbers`: A math concept that satisfies the following condition:
 ```
   Given a number 'n'
     'n' is a perfect number if:
       'n' == The sum of all divisors of 'n' (excluding 'n' itself)
 ```
 
-`Superperfect Numbers`:
-A math concept that satisfies the following condition:
+`Superperfect Numbers`: A math concept that satisfies the following condition:
 ```
   Given a number 'n'
     'n' is a superperfect number if:
       ('n' * 2) == (The sum of all divisors of (The sum of all divisors of 'n'))
 ```
 
-`Sieve of Eratosthenes`:
-A math algorithm to find all prime numbers within a given range. In other words:
+`Sieve of Eratosthenes`: A math algorithm to find all prime numbers within a given range. In other words:
 ```
   Given an upper bound 'n'
     Return all prime numbers within the range of 1 to 'n'
