@@ -2,7 +2,7 @@
 
 Copyright (c) 2019 Bader Alshaya
 
-### Highlights
+## Highlights
 
 This is a playground for several famous mathematical concepts and algorithms. The program is designed for testing, viewing, and using these concepts/algorithms digitally and maybe come up with ways to simplify them.
 
@@ -13,7 +13,7 @@ This is a playground for several famous mathematical concepts and algorithms. Th
 **Other interesting math concepts to support:**
 - (Algorithm): `Sieve of Eratosthenes`
 
-### Build and Run
+## Build and Run
 
 Build this program and library with `cargo build`. You can
 run the program with `cargo run`.
