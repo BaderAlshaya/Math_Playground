@@ -34,7 +34,7 @@ Below are my own interpretation of these concepts and algorithms in short.
 
 `Sieve of Eratosthenes`: A math algorithm to find all prime numbers within a given range. In other words:
 ```
-  The algorithm returns all prime numbers in the range of 1 to some upper bound limit.
+  The Sieve of Eratosthenes algorithm returns all prime numbers in the range of 1 to some upper bound limit.
 
   Given an upper bound 'n'
     Return the list of all prime numbers 'p's, such that each 'p' <= 'n'
