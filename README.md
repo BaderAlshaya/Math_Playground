@@ -13,8 +13,8 @@ This is a playground for several famous mathematical concepts and algorithms. Th
 - (Algorithm): `Trial Division for Primes`
 
 **Other interesting math concepts to support:**
-- (Concept): `Deficient Number`
-- (Concept): `Abundant Number`
+- (Concept): `Deficient Numbers`
+- (Concept): `Abundant Numbers`
 - (Algorithm): `Restricted Divisor Function`
 
 
