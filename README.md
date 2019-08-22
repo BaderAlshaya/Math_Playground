@@ -9,7 +9,7 @@ This is a playground for several famous mathematical concepts and algorithms. Th
 **Currently supported math concepts:**
 - (Concept): `Perfect Numbers`
 - (Concept): `Superperfect Numbers`
-- (Algorithm): `Sieve of Eratosthenes`
+- (Algorithm): `Trial Division for Primes`
 
 **Other interesting math concepts to support:**
 - ???
